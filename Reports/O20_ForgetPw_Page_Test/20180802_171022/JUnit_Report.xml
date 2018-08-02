@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="O20_ForgetPw_Page_Test" time="87" tests="3" failures="1" errors="0">
+   <testsuite name="O20_ForgetPw_Page_Test" tests="3" failures="1" errors="0" time="87" timestamp="2018-08-02 17:10:24" hostname="dovantai - 192.168.2.166" id="Test Suites/O20_ForgetPw_Page_Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/dovantai/Documents/Katalon Studio/SOD project/SOD_client_automation-/Reports/O20_ForgetPw_Page_Test/20180802_171022"/>
+         <property name="logFiles" value="/Users/dovantai/Documents/Katalon Studio/SOD project/SOD_client_automation-/Reports/O20_ForgetPw_Page_Test/20180802_171022/execution0.log"/>
+         <property name="attachments" value="/Users/dovantai/Documents/Katalon Studio/SOD project/SOD_client_automation-/Reports/O20_ForgetPw_Page_Test/20180802_171022/1533197501589.png"/>
+         <property name="hostName" value="dovantai - 192.168.2.166"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.2.166"/>
+         <property name="sessionId" value="0b4dc6b24bc4c81ed5b77399c6033f66"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/O20_ForgetPw_Page/Verify that Elements display correctly" classname="Test Cases/O20_ForgetPw_Page/Verify that Elements display correctly" status="PASSED">
+         <system-out><![CDATA[2018-08-02 17:10:25 - [TEST_CASE][PASSED] - Test Cases/O20_ForgetPw_Page/Verify that Elements display correctly: Test Cases/O20_ForgetPw_Page/Verify that Elements display correctly
+
+2018-08-02 17:10:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://yoyaku.sod.bla-one.net/password/forgot'
+
+2018-08-02 17:10:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://yoyaku.sod.bla-one.net/password/forgot'
+
+2018-08-02 17:10:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_btn_Back_To_Login' is present
+
+2018-08-02 17:10:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:10:37 - [MESSAGE][PASSED] - Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_btn_Back_To_Login' is present
+
+2018-08-02 17:10:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Email_Label' is present
+
+2018-08-02 17:10:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:10:37 - [MESSAGE][PASSED] - Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Email_Label' is present
+
+2018-08-02 17:10:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Email_Input' is present
+
+2018-08-02 17:10:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:10:37 - [MESSAGE][PASSED] - Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Email_Input' is present
+
+2018-08-02 17:10:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_logo' is present
+
+2018-08-02 17:10:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:10:37 - [MESSAGE][PASSED] - Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_logo' is present
+
+2018-08-02 17:10:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Description' is present
+
+2018-08-02 17:10:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:10:37 - [MESSAGE][PASSED] - Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Description' is present
+
+2018-08-02 17:10:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Title' is present
+
+2018-08-02 17:10:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:10:37 - [MESSAGE][PASSED] - Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Title' is present
+
+2018-08-02 17:10:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_btn_Send_Reset_Pw' is present
+
+2018-08-02 17:10:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:10:37 - [MESSAGE][PASSED] - Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_btn_Send_Reset_Pw' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/O20_ForgetPw_Page/Verify that user CAN NOT reset with invalid credentials" classname="Test Cases/O20_ForgetPw_Page/Verify that user CAN NOT reset with invalid credentials" status="PASSED">
+         <system-out><![CDATA[2018-08-02 17:10:37 - [TEST_CASE][PASSED] - Test Cases/O20_ForgetPw_Page/Verify that user CAN NOT reset with invalid credentials: Test Cases/O20_ForgetPw_Page/Verify that user CAN NOT reset with invalid credentials
+
+2018-08-02 17:10:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://yoyaku.sod.bla-one.net/password/forgot'
+
+2018-08-02 17:10:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-02 17:10:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://yoyaku.sod.bla-one.net/password/forgot'
+
+2018-08-02 17:10:45 - [TEST_STEP][PASSED] - comment: email is wrong
+
+2018-08-02 17:10:45 - [TEST_STEP][PASSED] - setText: Text 'abcd' is set on object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Email_Input'
+
+2018-08-02 17:10:45 - [MESSAGE][PASSED] - Text 'abcd' is set on object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Email_Input'
+
+2018-08-02 17:10:45 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'メールアドレスのフォーマットが正しくありません' is present on page 
+
+2018-08-02 17:10:45 - [MESSAGE][PASSED] - Text 'メールアドレスのフォーマットが正しくありません' is present on page 
+
+2018-08-02 17:10:45 - [TEST_STEP][PASSED] - verifyElementNotClickable: Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_btn_Send_Reset_Pw' is NOT clickable
+
+2018-08-02 17:10:45 - [MESSAGE][PASSED] - Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_btn_Send_Reset_Pw' is NOT clickable
+
+2018-08-02 17:10:45 - [TEST_STEP][PASSED] - setText: Text 'AAA@BBB@CCC.DDD' is set on object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Email_Input'
+
+2018-08-02 17:10:45 - [MESSAGE][PASSED] - Text 'AAA@BBB@CCC.DDD' is set on object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Email_Input'
+
+2018-08-02 17:10:45 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'メールアドレスのフォーマットが正しくありません
+' is present on page 
+
+2018-08-02 17:10:45 - [MESSAGE][PASSED] - Text 'メールアドレスのフォーマットが正しくありません
+' is present on page 
+
+2018-08-02 17:10:45 - [TEST_STEP][PASSED] - verifyElementNotClickable: Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_btn_Send_Reset_Pw' is NOT clickable
+
+2018-08-02 17:10:45 - [MESSAGE][PASSED] - Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_btn_Send_Reset_Pw' is NOT clickable
+
+2018-08-02 17:10:45 - [TEST_STEP][PASSED] - setText: Text ' taistore001@mailinator.com' is set on object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Email_Input'
+
+2018-08-02 17:10:46 - [MESSAGE][PASSED] - Text ' taistore001@mailinator.com' is set on object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Email_Input'
+
+2018-08-02 17:10:46 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'メールアドレスのフォーマットが正しくありません
+' is present on page 
+
+2018-08-02 17:10:46 - [MESSAGE][PASSED] - Text 'メールアドレスのフォーマットが正しくありません
+' is present on page 
+
+2018-08-02 17:10:46 - [TEST_STEP][PASSED] - verifyElementNotClickable: Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_btn_Send_Reset_Pw' is NOT clickable
+
+2018-08-02 17:10:46 - [MESSAGE][PASSED] - Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_btn_Send_Reset_Pw' is NOT clickable
+
+2018-08-02 17:10:46 - [TEST_STEP][PASSED] - setText: Text 'taistore001@mailinator.com ' is set on object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Email_Input'
+
+2018-08-02 17:10:46 - [MESSAGE][PASSED] - Text 'taistore001@mailinator.com ' is set on object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Email_Input'
+
+2018-08-02 17:10:46 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'メールアドレスのフォーマットが正しくありません
+' is present on page 
+
+2018-08-02 17:10:46 - [MESSAGE][PASSED] - Text 'メールアドレスのフォーマットが正しくありません
+' is present on page 
+
+2018-08-02 17:10:46 - [TEST_STEP][PASSED] - verifyElementNotClickable: Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_btn_Send_Reset_Pw' is NOT clickable
+
+2018-08-02 17:10:46 - [MESSAGE][PASSED] - Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_btn_Send_Reset_Pw' is NOT clickable
+
+2018-08-02 17:10:46 - [TEST_STEP][PASSED] - setText: Text 'taistore001 @mailinator.com' is set on object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Email_Input'
+
+2018-08-02 17:10:46 - [MESSAGE][PASSED] - Text 'taistore001 @mailinator.com' is set on object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Email_Input'
+
+2018-08-02 17:10:46 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'メールアドレスのフォーマットが正しくありません
+' is present on page 
+
+2018-08-02 17:10:46 - [MESSAGE][PASSED] - Text 'メールアドレスのフォーマットが正しくありません
+' is present on page 
+
+2018-08-02 17:10:46 - [TEST_STEP][PASSED] - verifyElementNotClickable: Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_btn_Send_Reset_Pw' is NOT clickable
+
+2018-08-02 17:10:46 - [MESSAGE][PASSED] - Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_btn_Send_Reset_Pw' is NOT clickable
+
+2018-08-02 17:10:46 - [TEST_STEP][PASSED] - comment: reset with email not registered
+
+2018-08-02 17:10:46 - [TEST_STEP][PASSED] - setText: Text 'notavailableaccount@test001.com' is set on object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Email_Input'
+
+2018-08-02 17:10:47 - [MESSAGE][PASSED] - Text 'notavailableaccount@test001.com' is set on object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Email_Input'
+
+2018-08-02 17:10:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_btn_Send_Reset_Pw' is clicked on
+
+2018-08-02 17:10:47 - [MESSAGE][PASSED] - Object: 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_btn_Send_Reset_Pw' is clicked on
+
+2018-08-02 17:10:47 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/O20_ForgetPw_page/O20_Toast_Message' is visible
+
+2018-08-02 17:10:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:10:48 - [MESSAGE][PASSED] - Object 'Object Repository/O20_ForgetPw_page/O20_Toast_Message' is visible
+
+2018-08-02 17:10:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/O20_ForgetPw_page/O20_Toast_Message' are matched.
+
+2018-08-02 17:10:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/O20_ForgetPw_page/O20_Toast_Message' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/O20_ForgetPw_Page/Verify that user can send reset email successful" classname="Test Cases/O20_ForgetPw_Page/Verify that user can send reset email successful" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/O20_ForgetPw_page/Yopmail_Page/Yopmail_input_btn_check_Inbox' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/O20_ForgetPw_page/Yopmail_Page/Yopmail_input_btn_check_Inbox' located by 'By.xpath: //*[@id=&quot;f&quot;]/table/tbody/tr[1]/td[4]/input' not found)"/>
+         <system-out><![CDATA[2018-08-02 17:10:49 - [TEST_CASE][FAILED] - Test Cases/O20_ForgetPw_Page/Verify that user can send reset email successful: Test Cases/O20_ForgetPw_Page/Verify that user can send reset email successful FAILED because (of) Unable to click on object 'Object Repository/O20_ForgetPw_page/Yopmail_Page/Yopmail_input_btn_check_Inbox' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/O20_ForgetPw_page/Yopmail_Page/Yopmail_input_btn_check_Inbox' located by 'By.xpath: //*[@id="f"]/table/tbody/tr[1]/td[4]/input' not found)
+
+2018-08-02 17:10:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://yoyaku.sod.bla-one.net/password/forgot'
+
+2018-08-02 17:10:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-02 17:10:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://yoyaku.sod.bla-one.net/password/forgot'
+
+2018-08-02 17:10:57 - [TEST_STEP][PASSED] - setText: Text 'taistore001@yopmail.com' is set on object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Email_Input'
+
+2018-08-02 17:10:57 - [MESSAGE][PASSED] - Text 'taistore001@yopmail.com' is set on object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Email_Input'
+
+2018-08-02 17:10:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_btn_Send_Reset_Pw' is clicked on
+
+2018-08-02 17:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_btn_Send_Reset_Pw' is clicked on
+
+2018-08-02 17:10:57 - [TEST_STEP][PASSED] - comment: verify error message visible
+
+2018-08-02 17:10:57 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/O20_ForgetPw_page/O20_Toast_Message' is visible
+
+2018-08-02 17:10:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:10:59 - [MESSAGE][PASSED] - Object 'Object Repository/O20_ForgetPw_page/O20_Toast_Message' is visible
+
+2018-08-02 17:10:59 - [TEST_STEP][PASSED] - verifyTextPresent: Text '認証メールを送信しました' is present on page 
+
+2018-08-02 17:10:59 - [MESSAGE][PASSED] - Text '認証メールを送信しました' is present on page 
+
+2018-08-02 17:10:59 - [TEST_STEP][PASSED] - comment: page navigate to reset completed so verify page reset completed elements visible
+
+2018-08-02 17:10:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O20_ForgetPw_page/O20-1_ForgetPw_Completed_Page/O20-1_ForgetPw_Completed_logo' is present
+
+2018-08-02 17:10:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:10:59 - [MESSAGE][PASSED] - Object 'Object Repository/O20_ForgetPw_page/O20-1_ForgetPw_Completed_Page/O20-1_ForgetPw_Completed_logo' is present
+
+2018-08-02 17:10:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O20_ForgetPw_page/O20-1_ForgetPw_Completed_Page/O20-1_ForgetPw_Completed_Descripiton' is present
+
+2018-08-02 17:10:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:10:59 - [MESSAGE][PASSED] - Object 'Object Repository/O20_ForgetPw_page/O20-1_ForgetPw_Completed_Page/O20-1_ForgetPw_Completed_Descripiton' is present
+
+2018-08-02 17:10:59 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'パスワード再設定メールを送信しました。ご確認ください' is present on page 
+
+2018-08-02 17:10:59 - [MESSAGE][PASSED] - Text 'パスワード再設定メールを送信しました。ご確認ください' is present on page 
+
+2018-08-02 17:10:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O20_ForgetPw_page/O20-1_ForgetPw_Completed_Page/O20-1_ForgetPw_Completed_btn_Back_To_Login' is present
+
+2018-08-02 17:10:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:10:59 - [MESSAGE][PASSED] - Object 'Object Repository/O20_ForgetPw_page/O20-1_ForgetPw_Completed_Page/O20-1_ForgetPw_Completed_btn_Back_To_Login' is present
+
+2018-08-02 17:10:59 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'ログインページへ戻る' is present on page 
+
+2018-08-02 17:10:59 - [MESSAGE][PASSED] - Text 'ログインページへ戻る' is present on page 
+
+2018-08-02 17:10:59 - [TEST_STEP][PASSED] - comment: back to login page
+
+2018-08-02 17:10:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/O20_ForgetPw_page/O20-1_ForgetPw_Completed_Page/O20-1_ForgetPw_Completed_btn_Back_To_Login' is clicked on
+
+2018-08-02 17:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/O20_ForgetPw_page/O20-1_ForgetPw_Completed_Page/O20-1_ForgetPw_Completed_btn_Back_To_Login' is clicked on
+
+2018-08-02 17:10:59 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-02 17:10:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:10:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-02 17:10:59 - [TEST_STEP][PASSED] - comment: Check email come to inbox yopmail
+
+2018-08-02 17:10:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.yopmail.com/en/' successfully
+
+2018-08-02 17:11:09 - [MESSAGE][PASSED] - Navigate to 'http://www.yopmail.com/en/' successfully
+
+2018-08-02 17:11:09 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-02 17:11:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:11:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-02 17:11:09 - [TEST_STEP][PASSED] - setText: Text 'taistore001@yopmail.com' is set on object 'Object Repository/O20_ForgetPw_page/Yopmail_Page/Yopmail_input_mail'
+
+2018-08-02 17:11:10 - [MESSAGE][PASSED] - Text 'taistore001@yopmail.com' is set on object 'Object Repository/O20_ForgetPw_page/Yopmail_Page/Yopmail_input_mail'
+
+2018-08-02 17:11:10 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/O20_ForgetPw_page/Yopmail_Page/Yopmail_input_btn_check_Inbox' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/O20_ForgetPw_page/Yopmail_Page/Yopmail_input_btn_check_Inbox' located by 'By.xpath: //*[@id="f"]/table/tbody/tr[1]/td[4]/input' not found)
+
+2018-08-02 17:11:42 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/O20_ForgetPw_page/Yopmail_Page/Yopmail_input_btn_check_Inbox' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/O20_ForgetPw_page/Yopmail_Page/Yopmail_input_btn_check_Inbox' located by 'By.xpath: //*[@id="f"]/table/tbody/tr[1]/td[4]/input' not found)
+[[ATTACHMENT|/Users/dovantai/Documents/Katalon Studio/SOD project/SOD_client_automation-/Reports/O20_ForgetPw_Page_Test/20180802_171022/1533197501589.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-02 17:10:49 - [TEST_CASE][FAILED] - Test Cases/O20_ForgetPw_Page/Verify that user can send reset email successful: Test Cases/O20_ForgetPw_Page/Verify that user can send reset email successful FAILED because (of) Unable to click on object 'Object Repository/O20_ForgetPw_page/Yopmail_Page/Yopmail_input_btn_check_Inbox' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/O20_ForgetPw_page/Yopmail_Page/Yopmail_input_btn_check_Inbox' located by 'By.xpath: //*[@id="f"]/table/tbody/tr[1]/td[4]/input' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/O20_ForgetPw_Page/Verify that user can back to login page" classname="Test Cases/O20_ForgetPw_Page/Verify that user can back to login page" status="PASSED">
+         <system-out><![CDATA[2018-08-02 17:11:42 - [TEST_CASE][PASSED] - Test Cases/O20_ForgetPw_Page/Verify that user can back to login page: Test Cases/O20_ForgetPw_Page/Verify that user can back to login page
+
+2018-08-02 17:11:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://yoyaku.sod.bla-one.net/password/forgot'
+
+2018-08-02 17:11:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-02 17:11:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://yoyaku.sod.bla-one.net/password/forgot'
+
+2018-08-02 17:11:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_btn_Back_To_Login' is clicked on
+
+2018-08-02 17:11:51 - [MESSAGE][PASSED] - Object: 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_btn_Back_To_Login' is clicked on
+
+2018-08-02 17:11:51 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-02 17:11:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:11:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-02 17:11:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' is present
+
+2018-08-02 17:11:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:11:51 - [MESSAGE][PASSED] - Object 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' is present
+
+2018-08-02 17:11:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O1_Login_Page/Password/O1_Login_PW_Input' is present
+
+2018-08-02 17:11:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:11:51 - [MESSAGE][PASSED] - Object 'Object Repository/O1_Login_Page/Password/O1_Login_PW_Input' is present
+
+2018-08-02 17:11:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O1_Login_Page/Password/O1_Login_PW_Label' is present
+
+2018-08-02 17:11:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:11:51 - [MESSAGE][PASSED] - Object 'Object Repository/O1_Login_Page/Password/O1_Login_PW_Label' is present
+
+2018-08-02 17:11:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O1_Login_Page/O1_Login_Logo' is present
+
+2018-08-02 17:11:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:11:52 - [MESSAGE][PASSED] - Object 'Object Repository/O1_Login_Page/O1_Login_Logo' is present
+
+2018-08-02 17:11:52 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Label' is present
+
+2018-08-02 17:11:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:11:52 - [MESSAGE][PASSED] - Object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Label' is present
+
+2018-08-02 17:11:52 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Input' is present
+
+2018-08-02 17:11:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:11:52 - [MESSAGE][PASSED] - Object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Input' is present
+
+2018-08-02 17:11:52 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O1_Login_Page/O1_Login_Description' is present
+
+2018-08-02 17:11:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:11:52 - [MESSAGE][PASSED] - Object 'Object Repository/O1_Login_Page/O1_Login_Description' is present
+
+2018-08-02 17:11:52 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O1_Login_Page/O1_Login_btn_ForgetPw' is present
+
+2018-08-02 17:11:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:11:52 - [MESSAGE][PASSED] - Object 'Object Repository/O1_Login_Page/O1_Login_btn_ForgetPw' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-02 17:10:24 - [TEST_SUITE][FAILED] - O20_ForgetPw_Page_Test: Test Cases/O20_ForgetPw_Page/Verify that user can send reset email successful FAILED because (of) Unable to click on object 'Object Repository/O20_ForgetPw_page/Yopmail_Page/Yopmail_input_btn_check_Inbox' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/O20_ForgetPw_page/Yopmail_Page/Yopmail_input_btn_check_Inbox' located by 'By.xpath: //*[@id="f"]/table/tbody/tr[1]/td[4]/input' not found)]]></system-out>
+      <system-err><![CDATA[2018-08-02 17:10:24 - [TEST_SUITE][FAILED] - O20_ForgetPw_Page_Test: Test Cases/O20_ForgetPw_Page/Verify that user can send reset email successful FAILED because (of) Unable to click on object 'Object Repository/O20_ForgetPw_page/Yopmail_Page/Yopmail_input_btn_check_Inbox' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/O20_ForgetPw_page/Yopmail_Page/Yopmail_input_btn_check_Inbox' located by 'By.xpath: //*[@id="f"]/table/tbody/tr[1]/td[4]/input' not found)]]></system-err>
+   </testsuite>
+</testsuites>

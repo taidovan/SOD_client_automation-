@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="O1_Login_page_test" time="33" tests="4" failures="0" errors="0">
+   <testsuite name="O1_Login_page_test" tests="4" failures="0" errors="0" time="33" timestamp="2018-08-02 17:06:49" hostname="dovantai - 192.168.2.166" id="Test Suites/O1_Login_page_test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/dovantai/Documents/Katalon Studio/SOD project/SOD_client_automation-/Reports/O1_Login_page_test/20180802_170647"/>
+         <property name="logFiles" value="/Users/dovantai/Documents/Katalon Studio/SOD project/SOD_client_automation-/Reports/O1_Login_page_test/20180802_170647/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dovantai - 192.168.2.166"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.2.166"/>
+         <property name="sessionId" value="2f8ab00216d11a62951b8d30fd61a5ba"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/O1_Login_Page/Verify that Element display correctly" classname="Test Cases/O1_Login_Page/Verify that Element display correctly" status="PASSED">
+         <system-out><![CDATA[2018-08-02 17:06:50 - [TEST_CASE][PASSED] - Test Cases/O1_Login_Page/Verify that Element display correctly: Test Cases/O1_Login_Page/Verify that Element display correctly
+
+2018-08-02 17:06:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://yoyaku.sod.bla-one.net/login'
+
+2018-08-02 17:06:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://yoyaku.sod.bla-one.net/login'
+
+2018-08-02 17:06:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O1_Login_Page/O1_Login_Logo' is present
+
+2018-08-02 17:06:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:06:58 - [MESSAGE][PASSED] - Object 'Object Repository/O1_Login_Page/O1_Login_Logo' is present
+
+2018-08-02 17:06:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' is present
+
+2018-08-02 17:06:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:06:58 - [MESSAGE][PASSED] - Object 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' is present
+
+2018-08-02 17:06:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Input' is present
+
+2018-08-02 17:06:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:06:58 - [MESSAGE][PASSED] - Object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Input' is present
+
+2018-08-02 17:06:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Label' is present
+
+2018-08-02 17:06:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:06:58 - [MESSAGE][PASSED] - Object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Label' is present
+
+2018-08-02 17:06:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O1_Login_Page/O1_Login_btn_ForgetPw' is present
+
+2018-08-02 17:06:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:06:58 - [MESSAGE][PASSED] - Object 'Object Repository/O1_Login_Page/O1_Login_btn_ForgetPw' is present
+
+2018-08-02 17:06:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O1_Login_Page/Password/O1_Login_PW_Input' is present
+
+2018-08-02 17:06:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:06:58 - [MESSAGE][PASSED] - Object 'Object Repository/O1_Login_Page/Password/O1_Login_PW_Input' is present
+
+2018-08-02 17:06:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O1_Login_Page/Password/O1_Login_PW_Label' is present
+
+2018-08-02 17:06:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:06:58 - [MESSAGE][PASSED] - Object 'Object Repository/O1_Login_Page/Password/O1_Login_PW_Label' is present
+
+2018-08-02 17:06:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O1_Login_Page/O1_Login_Description' is present
+
+2018-08-02 17:06:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:06:58 - [MESSAGE][PASSED] - Object 'Object Repository/O1_Login_Page/O1_Login_Description' is present
+
+2018-08-02 17:06:58 - [TEST_STEP][PASSED] - comment: Verify element texts
+
+2018-08-02 17:06:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/O1_Login_Page/O1_Login_Description' are matched.
+
+2018-08-02 17:06:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/O1_Login_Page/O1_Login_Description' are matched.
+
+2018-08-02 17:06:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Label' are matched.
+
+2018-08-02 17:06:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Label' are matched.
+
+2018-08-02 17:06:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/O1_Login_Page/Password/O1_Login_PW_Label' are matched.
+
+2018-08-02 17:06:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/O1_Login_Page/Password/O1_Login_PW_Label' are matched.
+
+2018-08-02 17:06:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' are matched.
+
+2018-08-02 17:06:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' are matched.
+
+2018-08-02 17:06:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/O1_Login_Page/O1_Login_btn_ForgetPw' are matched.
+
+2018-08-02 17:06:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/O1_Login_Page/O1_Login_btn_ForgetPw' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/O1_Login_Page/Verify that user CAN NOT login with invalid credentials" classname="Test Cases/O1_Login_Page/Verify that user CAN NOT login with invalid credentials" status="PASSED">
+         <system-out><![CDATA[2018-08-02 17:06:59 - [TEST_CASE][PASSED] - Test Cases/O1_Login_Page/Verify that user CAN NOT login with invalid credentials: Test Cases/O1_Login_Page/Verify that user CAN NOT login with invalid credentials
+
+2018-08-02 17:06:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://yoyaku.sod.bla-one.net/login'
+
+2018-08-02 17:06:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-02 17:07:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://yoyaku.sod.bla-one.net/login'
+
+2018-08-02 17:07:05 - [TEST_STEP][PASSED] - comment: email empty
+
+2018-08-02 17:07:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Input' is clicked on
+
+2018-08-02 17:07:05 - [MESSAGE][PASSED] - Object: 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Input' is clicked on
+
+2018-08-02 17:07:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Label' is clicked on
+
+2018-08-02 17:07:05 - [MESSAGE][PASSED] - Object: 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Label' is clicked on
+
+2018-08-02 17:07:05 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'メールアドレスを入力してください
+' is present on page 
+
+2018-08-02 17:07:05 - [MESSAGE][PASSED] - Text 'メールアドレスを入力してください
+' is present on page 
+
+2018-08-02 17:07:05 - [TEST_STEP][PASSED] - verifyElementNotClickable: Object 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' is NOT clickable
+
+2018-08-02 17:07:06 - [MESSAGE][PASSED] - Object 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' is NOT clickable
+
+2018-08-02 17:07:06 - [TEST_STEP][PASSED] - comment: email is space only
+
+2018-08-02 17:07:06 - [TEST_STEP][PASSED] - setText: Text '    ' is set on object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Input'
+
+2018-08-02 17:07:06 - [MESSAGE][PASSED] - Text '    ' is set on object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Input'
+
+2018-08-02 17:07:06 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'メールアドレスのフォーマットが正しくありません
+' is present on page 
+
+2018-08-02 17:07:06 - [MESSAGE][PASSED] - Text 'メールアドレスのフォーマットが正しくありません
+' is present on page 
+
+2018-08-02 17:07:06 - [TEST_STEP][PASSED] - verifyElementNotClickable: Object 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' is NOT clickable
+
+2018-08-02 17:07:06 - [MESSAGE][PASSED] - Object 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' is NOT clickable
+
+2018-08-02 17:07:06 - [TEST_STEP][PASSED] - comment: email is wrong
+
+2018-08-02 17:07:06 - [TEST_STEP][PASSED] - setText: Text 'abcd' is set on object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Input'
+
+2018-08-02 17:07:06 - [MESSAGE][PASSED] - Text 'abcd' is set on object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Input'
+
+2018-08-02 17:07:06 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'メールアドレスのフォーマットが正しくありません
+' is present on page 
+
+2018-08-02 17:07:06 - [MESSAGE][PASSED] - Text 'メールアドレスのフォーマットが正しくありません
+' is present on page 
+
+2018-08-02 17:07:06 - [TEST_STEP][PASSED] - verifyElementNotClickable: Object 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' is NOT clickable
+
+2018-08-02 17:07:06 - [MESSAGE][PASSED] - Object 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' is NOT clickable
+
+2018-08-02 17:07:06 - [TEST_STEP][PASSED] - setText: Text 'AAA@BBB@CCC.DDD' is set on object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Input'
+
+2018-08-02 17:07:06 - [MESSAGE][PASSED] - Text 'AAA@BBB@CCC.DDD' is set on object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Input'
+
+2018-08-02 17:07:06 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'メールアドレスのフォーマットが正しくありません
+' is present on page 
+
+2018-08-02 17:07:06 - [MESSAGE][PASSED] - Text 'メールアドレスのフォーマットが正しくありません
+' is present on page 
+
+2018-08-02 17:07:06 - [TEST_STEP][PASSED] - verifyElementNotClickable: Object 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' is NOT clickable
+
+2018-08-02 17:07:06 - [MESSAGE][PASSED] - Object 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' is NOT clickable
+
+2018-08-02 17:07:06 - [TEST_STEP][PASSED] - setText: Text ' taistore001@mailinator.com' is set on object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Input'
+
+2018-08-02 17:07:07 - [MESSAGE][PASSED] - Text ' taistore001@mailinator.com' is set on object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Input'
+
+2018-08-02 17:07:07 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'メールアドレスのフォーマットが正しくありません
+' is present on page 
+
+2018-08-02 17:07:07 - [MESSAGE][PASSED] - Text 'メールアドレスのフォーマットが正しくありません
+' is present on page 
+
+2018-08-02 17:07:07 - [TEST_STEP][PASSED] - verifyElementNotClickable: Object 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' is NOT clickable
+
+2018-08-02 17:07:07 - [MESSAGE][PASSED] - Object 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' is NOT clickable
+
+2018-08-02 17:07:07 - [TEST_STEP][PASSED] - setText: Text 'taistore001@mailinator.com ' is set on object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Input'
+
+2018-08-02 17:07:07 - [MESSAGE][PASSED] - Text 'taistore001@mailinator.com ' is set on object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Input'
+
+2018-08-02 17:07:07 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'メールアドレスのフォーマットが正しくありません
+' is present on page 
+
+2018-08-02 17:07:07 - [MESSAGE][PASSED] - Text 'メールアドレスのフォーマットが正しくありません
+' is present on page 
+
+2018-08-02 17:07:07 - [TEST_STEP][PASSED] - verifyElementNotClickable: Object 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' is NOT clickable
+
+2018-08-02 17:07:07 - [MESSAGE][PASSED] - Object 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' is NOT clickable
+
+2018-08-02 17:07:07 - [TEST_STEP][PASSED] - setText: Text 'taistore001 @mailinator.com' is set on object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Input'
+
+2018-08-02 17:07:07 - [MESSAGE][PASSED] - Text 'taistore001 @mailinator.com' is set on object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Input'
+
+2018-08-02 17:07:07 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'メールアドレスのフォーマットが正しくありません
+' is present on page 
+
+2018-08-02 17:07:07 - [MESSAGE][PASSED] - Text 'メールアドレスのフォーマットが正しくありません
+' is present on page 
+
+2018-08-02 17:07:07 - [TEST_STEP][PASSED] - verifyElementNotClickable: Object 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' is NOT clickable
+
+2018-08-02 17:07:07 - [MESSAGE][PASSED] - Object 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' is NOT clickable
+
+2018-08-02 17:07:07 - [TEST_STEP][PASSED] - comment: password is empty
+
+2018-08-02 17:07:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/O1_Login_Page/Password/O1_Login_PW_Input' is clicked on
+
+2018-08-02 17:07:08 - [MESSAGE][PASSED] - Object: 'Object Repository/O1_Login_Page/Password/O1_Login_PW_Input' is clicked on
+
+2018-08-02 17:07:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/O1_Login_Page/O1_Login_Logo' is clicked on
+
+2018-08-02 17:07:08 - [MESSAGE][PASSED] - Object: 'Object Repository/O1_Login_Page/O1_Login_Logo' is clicked on
+
+2018-08-02 17:07:08 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'パスワードを入力してください
+' is present on page 
+
+2018-08-02 17:07:08 - [MESSAGE][PASSED] - Text 'パスワードを入力してください
+' is present on page 
+
+2018-08-02 17:07:08 - [TEST_STEP][PASSED] - verifyElementNotClickable: Object 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' is NOT clickable
+
+2018-08-02 17:07:08 - [MESSAGE][PASSED] - Object 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' is NOT clickable
+
+2018-08-02 17:07:08 - [TEST_STEP][PASSED] - comment: login with right email wrong pw
+
+2018-08-02 17:07:08 - [TEST_STEP][PASSED] - setText: Text 'taistore001@mailinator.com' is set on object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Input'
+
+2018-08-02 17:07:08 - [MESSAGE][PASSED] - Text 'taistore001@mailinator.com' is set on object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Input'
+
+2018-08-02 17:07:08 - [TEST_STEP][PASSED] - setText: Text 'aaaaaaaaaaaaa' is set on object 'Object Repository/O1_Login_Page/Password/O1_Login_PW_Input'
+
+2018-08-02 17:07:08 - [MESSAGE][PASSED] - Text 'aaaaaaaaaaaaa' is set on object 'Object Repository/O1_Login_Page/Password/O1_Login_PW_Input'
+
+2018-08-02 17:07:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' is clicked on
+
+2018-08-02 17:07:09 - [MESSAGE][PASSED] - Object: 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' is clicked on
+
+2018-08-02 17:07:09 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/O1_Login_Page/O1_Toast_Error' is visible
+
+2018-08-02 17:07:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:07:11 - [MESSAGE][PASSED] - Object 'Object Repository/O1_Login_Page/O1_Toast_Error' is visible
+
+2018-08-02 17:07:11 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'メールアドレスまたはパスワードが正しくありません' is present on page 
+
+2018-08-02 17:07:11 - [MESSAGE][PASSED] - Text 'メールアドレスまたはパスワードが正しくありません' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/O1_Login_Page/Verify that can navigate to forget password page" classname="Test Cases/O1_Login_Page/Verify that can navigate to forget password page" status="PASSED">
+         <system-out><![CDATA[2018-08-02 17:07:11 - [TEST_CASE][PASSED] - Test Cases/O1_Login_Page/Verify that can navigate to forget password page: Test Cases/O1_Login_Page/Verify that can navigate to forget password page
+
+2018-08-02 17:07:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://yoyaku.sod.bla-one.net/login'
+
+2018-08-02 17:07:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-02 17:07:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://yoyaku.sod.bla-one.net/login'
+
+2018-08-02 17:07:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/O1_Login_Page/O1_Login_btn_ForgetPw' is clicked on
+
+2018-08-02 17:07:16 - [MESSAGE][PASSED] - Object: 'Object Repository/O1_Login_Page/O1_Login_btn_ForgetPw' is clicked on
+
+2018-08-02 17:07:16 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_logo' is present
+
+2018-08-02 17:07:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:07:17 - [MESSAGE][PASSED] - Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_logo' is present
+
+2018-08-02 17:07:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Description' is present
+
+2018-08-02 17:07:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:07:17 - [MESSAGE][PASSED] - Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Description' is present
+
+2018-08-02 17:07:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Title' is present
+
+2018-08-02 17:07:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:07:17 - [MESSAGE][PASSED] - Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Title' is present
+
+2018-08-02 17:07:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_btn_Send_Reset_Pw' is present
+
+2018-08-02 17:07:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:07:17 - [MESSAGE][PASSED] - Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_btn_Send_Reset_Pw' is present
+
+2018-08-02 17:07:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Email_Label' is present
+
+2018-08-02 17:07:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:07:17 - [MESSAGE][PASSED] - Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Email_Label' is present
+
+2018-08-02 17:07:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Email_Input' is present
+
+2018-08-02 17:07:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:07:17 - [MESSAGE][PASSED] - Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_Email_Input' is present
+
+2018-08-02 17:07:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_btn_Back_To_Login' is present
+
+2018-08-02 17:07:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-02 17:07:17 - [MESSAGE][PASSED] - Object 'Object Repository/O20_ForgetPw_page/O20_ForgetPw_btn_Back_To_Login' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/O1_Login_Page/Verify that user can login successful" classname="Test Cases/O1_Login_Page/Verify that user can login successful" status="PASSED">
+         <system-out><![CDATA[2018-08-02 17:07:17 - [TEST_CASE][PASSED] - Test Cases/O1_Login_Page/Verify that user can login successful: Test Cases/O1_Login_Page/Verify that user can login successful
+
+2018-08-02 17:07:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://yoyaku.sod.bla-one.net/login'
+
+2018-08-02 17:07:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-02 17:07:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://yoyaku.sod.bla-one.net/login'
+
+2018-08-02 17:07:22 - [TEST_STEP][PASSED] - setText: Text 'taistore001@mailinator.com' is set on object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Input'
+
+2018-08-02 17:07:22 - [MESSAGE][PASSED] - Text 'taistore001@mailinator.com' is set on object 'Object Repository/O1_Login_Page/Email Address/O1_Login_Email_Input'
+
+2018-08-02 17:07:22 - [TEST_STEP][PASSED] - setText: Text 'Abcd@1234' is set on object 'Object Repository/O1_Login_Page/Password/O1_Login_PW_Input'
+
+2018-08-02 17:07:23 - [MESSAGE][PASSED] - Text 'Abcd@1234' is set on object 'Object Repository/O1_Login_Page/Password/O1_Login_PW_Input'
+
+2018-08-02 17:07:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' is clicked on
+
+2018-08-02 17:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/O1_Login_Page/O1_Login_btn_Signin' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-02 17:06:49 - [TEST_SUITE][PASSED] - O1_Login_page_test: Test Cases/O1_Login_Page/Verify that user can login successful]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Login logo
+- Login description
+- Login input email and label
+- Login input pw and label
+- Login btn
+- Forget pw btn</description>
+   <name>Verify that Element display correctly</name>
+   <tag>A1</tag>
+   <comment></comment>
+   <testCaseGuid>fcd5f466-5133-4e90-bbe7-196a1d4f9900</testCaseGuid>
+</TestCaseEntity>

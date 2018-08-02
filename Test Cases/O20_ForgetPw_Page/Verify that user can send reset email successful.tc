@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that user can send reset email successful</name>
+   <tag></tag>
+   <comment>verify error message visible
+page navigate to reset completed so verify page reset completed elements visible
+back to login page
+Check email come to inbox yopmail
+check email come to inbox mailinator
+click at btn kochira to reset pw
+Verify O21 reset pw elements
+Verify password validation
+password is empty
+NewPw confirm is empty
+password is wrong format
+password right format but less than 8 chars
+NewPw confirm is different with NewPw
+register pw completed
+verify reset completed
+verify back to login
+Verify already back to login page
+Verify element texts</comment>
+   <testCaseGuid>178444c0-72a7-4722-bc13-da97fd2342aa</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Kakaka logo
+- ForgetPw title
+- ForgetPw description
+- ForgetPw Email input box
+- ForgetPw btn
+- ForgetPw btn back to login</description>
+   <name>Verify that Elements display correctly</name>
+   <tag>A7</tag>
+   <comment></comment>
+   <testCaseGuid>f3a412d6-41ed-421d-bc60-6a413616709b</testCaseGuid>
+</TestCaseEntity>

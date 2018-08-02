@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that user can back to login page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f4f6e99b-4e84-44e8-ab64-fee3d31da100</testCaseGuid>
+</TestCaseEntity>
